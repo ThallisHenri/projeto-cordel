@@ -2,6 +2,7 @@
     font-family:"versos";
     src: url(fonts/Sriracha-Regular.ttf) format(truetype);
 }
+
 header{
     font-family: arial , Helvetica, sans-serif;
     background-color: black;
@@ -20,12 +21,74 @@ article{
     padding-top: 20px;
     padding-bottom: 40px;
 }
-article > p{
+.normal_verse{
+    background-color: white;
+    height: 600px;
+    padding-top: 50px;
+}
+.normal_verse> p{
     font-family: "versos", Arial, Helvetica, sans-serif;
+    font-size: larger;
     margin-top: 0px;
     margin-bottom: 0px;
-    padding-top: 20px;
+    padding-top: 40px;
     padding-left: 20px;
     min-width: 200px;
     max-width: 600px;
+}
+
+.image_verse{
+    background-image: url(imagens/background001.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    height: 600px;
+
+}
+.image_verse > div{
+    background-color: rgba(0, 0, 0, 0.32);
+    width: 350px;
+    margin-left: 20px;
+    margin-top:20px;
+}
+.image_verse > div > p{
+    font-family: "versos", Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: x-large;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 40px;
+    padding-left: 20px;
+    min-width: 200px;
+    max-width: 600px;
+}
+
+#second_img {
+    background-image: url(imagens/background002.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    height: 600px;
+
+}
+#second_img  > div{
+    background-color: rgba(0, 0, 0, 0.409);
+    width: 350px;
+    margin-left: 20px;
+    margin-top:20px;
+}
+#second_img > div > p{
+    font-family: "versos", Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: x-large;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 40px;
+    padding-left: 20px;
+    min-width: 200px;
+    max-width: 600px;
+}
+footer{
+    background-color:black;
+    color: white;
+    text-align: center;
+    width: 100%;
 }
