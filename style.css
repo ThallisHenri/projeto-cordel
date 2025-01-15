@@ -42,6 +42,7 @@ article{
     background-position: center center;
     background-attachment: fixed;
     height: 600px;
+    background-size: cover;
 
 }
 .image_verse > div{
